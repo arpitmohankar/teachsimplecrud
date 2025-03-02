@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://arpit1admin:4fwSNX8hAiIOPsLM@cluster0.9ipxqty.mongodb.net/nodeApitut?retryWrites=true&w=majority"
+    "mongo_url"
   )
   .then(() => {
     console.log("Connected to database!");
